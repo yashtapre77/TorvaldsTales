@@ -1,15 +1,22 @@
-@include('sections.header');
+@include('sections.header')
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        #main_footer{
+            position: relative;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
+    <div>
+        @yield('mainSection')
+    </div>
 
-<h1>main page</h1>
+<div id="main_footer">
+    @include('sections.footer')
+</div>
 </body>
 </html>
-@include('sections.footer');

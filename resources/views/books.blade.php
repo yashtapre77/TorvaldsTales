@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Achievements Page</h1>
+    <h1>Books Page</h1>
 </body>
 </html>
 @endsection
