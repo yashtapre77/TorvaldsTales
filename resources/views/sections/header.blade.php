@@ -6,7 +6,7 @@
             padding: 0;
         }
         nav {
-            background-color: #34495e;
+            background-color: #fe4c1c;
             padding: 15px 0;
             text-align: center;
             width: 1000px;
@@ -17,47 +17,51 @@
             margin-right: 100px;
 
         }
-        .navbar {
+        .navba{
             text-decoration: none;
             color: #ecf0f1;
             margin: 0 15px;
-            padding: 10px 15px;
-            font-size: 16px;
+            padding: 5px 15px;
+            font-size: 18px;
             display: inline-block;
             border-radius: 8px;
             transition: background-color 0.3s ease;
+            font-weight:900;
         }
         nav a:hover {
             background-color: #1abc9c;
             font-size: 20px;
         }
-        .header{
+        .heade{
             width: 100%;
             height: 20%;
             top: 50%;
             border: 1px solid black;
         }
-        #heading{
+        #headin{
             float: left;
             font-size: 60px;
+        }
+        p{
+            color: #91887c;
         }
 
     </style>
 </head>
 
 <body>
-<div class="header ">
+<div class="heade">
     <div>
-        <h1 id="heading" class="verticalCenter">TorvaldsTales</h1>
+        <h1 id="headin" class="verticalCente">TorvaldsTales</h1>
     </div>
     <center>
         <nav class="verticalCenter">
-            <a href="/home" class="navbar">Home</a>
-            <a href="/about" class="navbar">About</a>
-            <a href="/work" class="navbar">Work</a>
-            <a href="/history" class="navbar">History </a>
-            <a href="/achievements" class="navbar">Achievements</a>
-            <a href="/books" class="navbar">Books</a>
+            <a href="/home" class="navba">Home</a>
+            <a href="/about" class="navba">About</a>
+            <a href="/work" class="navba">Work</a>
+            <a href="/history" class="navba">History </a>
+            <a href="/achievements" class="navba">Achievements</a>
+            <a href="/books" class="navba">Books</a>
         </nav>
     </center>
 </div>

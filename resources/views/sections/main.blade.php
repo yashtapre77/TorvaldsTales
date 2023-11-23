@@ -8,6 +8,10 @@
             position: relative;
             margin-bottom: 30px;
         }
+        body{
+            background-color: #ebf0dc;
+            color: #fe4c1c;
+        }
     </style>
 </head>
 <body>
