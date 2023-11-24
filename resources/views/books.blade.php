@@ -26,7 +26,7 @@
             width: 80%;
             margin-left: auto;
             margin-right: auto;
-            justify-content:;
+            text-justify: inter-cluster;
         }
         .books-table-row {
             margin: 15px;
