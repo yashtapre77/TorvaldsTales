@@ -37,12 +37,21 @@
         td{
             color: #91887c;
         }
+
+        .sub-heads{
+            width: 100%;
+            margin-bottom: 25px;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            font-weight: 600;
+            font-family: serif;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Achievements Page</h1>
-    <h2>Awards and Achievements</h2>
+    <h1 class="sub-heads">Awards and Achievements</h1>
     <div class="c-block">
         <table id="ach-table" class="table table-striped">
             <tr>

@@ -12,8 +12,13 @@
         }
 
         #git-img {
-            width: 600px;
-            height: 300px;
+            width: 550px;
+            height: 250px;
+        }
+
+        .work-imgs{
+            margin-left: 60px;
+            border-radius: 30px;
         }
 
         #work-linux,
@@ -28,14 +33,31 @@
             border-radius: 30px;
             box-shadow: -6px -6px 10px rgba(94, 104, 121, 0.3), 6px 6px 10px rgba(94, 104, 121, 0.3);
         }
+
+        .sub-heads {
+            width: 100%;
+            margin-bottom: 25px;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            font-weight: 600;
+            font-family: serif;
+        }
+
+        .work-para{
+            text-align: justify;
+            margin: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Work Page</h1>
+    <h1 class="sub-heads">Linus Torvalds's Well-known Work</h1>
     <div id="work-linux">
         <h2>LINUX</h2>
-        <img src="/images/linux.jpg" alt="" id="linux-img">
+        <img src="/images/linux.jpg" alt="" id="linux-img" class="work-imgs">
         <p class="work-para">
             Linus Torvalds, a Finnish software engineer, is renowned as the creator of the Linux operating system. The
             development of Linux began in 1991 when Torvalds, then a student at the University of Helsinki, sought to
@@ -90,8 +112,8 @@
     </div>
 
     <div id="work-git">
-        <h2>Git</h2>
-        <img src="/images/Git-logo.png" alt="" id="git-img">
+        <h2>GIT</h2>
+        <img src="/images/Git-logo.png" alt="" id="git-img" class="work-imgs">
         <p class="work-para">
             Git, the distributed version control system that revolutionized the way software developers manage and track
             changes in their code, was also created by Linus Torvalds. The story of Git's development is a fascinating
@@ -144,8 +166,8 @@
     </div>
 
     <div id="work-subsurface">
-        <h2>Subsurface</h2>
-        <img src="/images/Subsurface.jpg" alt="" id="subsurface-img">
+        <h2>SUBSURFACE</h2>
+        <img src="/images/Subsurface.jpg" alt="" id="subsurface-img" class="work-imgs">
         <p class="work-para">
             Subsurface, a project initiated by Linus Torvalds, is a dive log software application designed to track and
             manage information about scuba diving. Torvalds, an avid scuba diver himself, felt the existing dive log

@@ -22,25 +22,39 @@
             border-radius: 30px;
             box-shadow: -6px -6px 10px rgba(94, 104, 121, 0.3), 6px 6px 10px rgba(94, 104, 121, 0.3);
         }
+
         #table-books {
             width: 80%;
             margin-left: auto;
             margin-right: auto;
             text-justify: inter-cluster;
         }
+
         .books-table-row {
             margin: 15px;
         }
-        td, th{
+
+        td,
+        th {
             padding: 20px 30px;
+        }
+
+        .sub-heads {
+            width: 100%;
+            margin-bottom: 25px;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            font-weight: 600;
+            font-family: serif;
         }
     </style>
 </head>
 
 <body>
-    <h1>Books Page</h1>
+    <h1 class="sub-heads">Books Page</h1>
     <div id="book-table">
-        <table id="table-books" >
+        <table id="table-books">
             <tr class="books-table-row">
                 <td>
                     <div class="books-img">
