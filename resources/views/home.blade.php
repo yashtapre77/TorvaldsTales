@@ -18,8 +18,7 @@
             margin-right: 3%;
             margin-left: 3%;
             border-radius: 5px;
-            opacity: 0.7;
-            box-shadow: 20px 0 200px rgba(0, 0, 0, 2.9) inset;
+            opacity: 1.0;
         }
 
         #linus-img1 {
@@ -58,10 +57,9 @@
             line-height: 1.6;
             display: flex;
             align-items: center;
-            margin-left: 80px;
+            margin-left: 30px;
             width: 50%;
-            float: left;
-            margin-top: 30px;
+            margin-top: 40px;
         }
 
         .info-section {
@@ -124,6 +122,17 @@
             .text {
                 font-size: 11px
             }
+        }
+
+        .sub-heads {
+            margin-top: 45px;
+            margin-left: 350px;
+            text-align: left;
+            font-weight: 700;
+            font-family: serif;
+            margin-bottom: -30px;
+            color: #fe4c1c;
+            font-size: 55px;
         }
 
         /* .home-title { */
@@ -193,11 +202,11 @@
           }
           slides[slideIndex-1].style.display = "block";
           dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 2000); // Change image every 2 seconds
+          setTimeout(showSlides, 2000);
         }
     </script>
     <br><br>
-    <h1>Home Page</h1>
+    <h1 class="sub-heads">Linus Torvalds</h1>
     <div class="info-section">
         <img src="/images/Linus.jpeg" alt="no image" id="linus-img1">
         <div class="right-block">
@@ -220,10 +229,19 @@
             <p class="left-block">
                 Torvalds’ philosophy was that if he made the software available for free downloading, including the
                 source code, anyone with knowledge of and interest in computer programming could modify the system and
-                ultimately make it better or modify it for their own specific purposes. Licensed under a GNU General Public License, the system is available free to anyone who can get, use, modify, distribute and copy it. By 1999, an estimated seven million computers were running on Linux. Linux gained popularity in the consumer PC market as well. Torvalds made his personal mascot a penguin named “Tux,” which became a recognizable symbol for Linux around the world. Torvalds spent 1988-1997 at the University of Helsinki, coordinating development of the Linux kernel and furthering his studies. He moved to the United States in 1997 to begin working for Transmeta, where he helped to design the Transmeta Crusoe Processor, a power-saving CPU. In 2003, Torvalds left Transmeta to focus on the Linux kernel through the Open Source Development Labs (OSDL). The OSDL’s purpose was to pro Linux development.
+                ultimately make it better or modify it for their own specific purposes. Licensed under a GNU General
+                Public License, the system is available free to anyone who can get, use, modify, distribute and copy it.
+                By 1999, an estimated seven million computers were running on Linux. Linux gained popularity in the
+                consumer PC market as well. Torvalds made his personal mascot a penguin named “Tux,” which became a
+                recognizable symbol for Linux around the world. Torvalds spent 1988-1997 at the University of Helsinki,
+                coordinating development of the Linux kernel and furthering his studies. He moved to the United States
+                in 1997 to begin working for Transmeta, where he helped to design the Transmeta Crusoe Processor, a
+                power-saving CPU. In 2003, Torvalds left Transmeta to focus on the Linux kernel through the Open Source
+                Development Labs (OSDL). The OSDL’s purpose was to pro Linux development.
             </p>
         </div>
     </div>
+    <div style="height: 150px"></div>
 </body>
 
 </html>

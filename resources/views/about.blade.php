@@ -32,7 +32,6 @@
 </head>
 
 <body>
-    <h1>About Page</h1>
     <h2 class="sub-heads">Personel Life</h2>
     <p class="about-p">
         Torvalds is married to Tove Torvalds (née Monni), a six-time Finnish national karate champion, whom he met in

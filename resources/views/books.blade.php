@@ -48,11 +48,16 @@
             font-weight: 600;
             font-family: serif;
         }
+
+        .books-info{
+            line-height: 1.4;
+            text-align: justify;
+        }
     </style>
 </head>
 
 <body>
-    <h1 class="sub-heads">Books Page</h1>
+    <h1 class="sub-heads">Books Contributed by Linus</h1>
     <div id="book-table">
         <table id="table-books">
             <tr class="books-table-row">
