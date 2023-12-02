@@ -5,6 +5,18 @@
 
 <head>
     <title>Document</title>
+    <script src="https://cdn.taillwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
     <style>
         .book-images {
             width: 200px;
@@ -54,10 +66,11 @@
             text-align: justify;
         }
     </style>
+
 </head>
 
 <body>
-    <h1 class="sub-heads">Books Contributed by Linus</h1>
+    <h1 class="sub-heads text-4xl font-extrabold dark:text-white">Books Contributed by Linus</h1>
     <div id="book-table">
         <table id="table-books">
             <tr class="books-table-row">
@@ -68,7 +81,7 @@
                 </td>
                 <td>
                     <div class="books-info">
-                        <p>
+                        <p class="text-1xl ">
                             Once upon a time Linus Torvalds was a skinny unknown, just another nerdy Helsinki techie who
                             had been fooling around with computers since childhood. Then he wrote a groundbreaking
                             operating system and distributed it via the Internet -- for free. Today Torvalds is an
